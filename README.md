@@ -15,12 +15,11 @@
 ```
 ### 启动
 定时器不会自动运行，需调用resumeTimer启动
-
-    - (instancetype)resumeTimer;    
+         
+      - (instancetype)resumeTimer;    
 
 ### 暂停/终止
-
-    - (void)removeTimer;
+      - (void)removeTimer;
     
 ###属性
 * `NSTimeInterval interval:`定时间隔
